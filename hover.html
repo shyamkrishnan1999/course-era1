@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+	<title>This is a sample  interactive webpage</title>
+	<style>
+		a:link,a:visited{
+			text-decoration:none;
+			background-color:green;
+			font-size:28px;
+			border:1px solid blue;
+			color:black;
+			display:block;
+			width:200px;
+			margin-bottom:1px;
+			text-align:center;
+
+		}
+		a:hover,a:active{
+			background-color:red;
+			color:black;
+		}
+		section div:nth-child(odd)
+		{
+			background-color:grey;
+		}
+		section div:nth-child(4):hover
+		{
+			background-color:red;
+			cursor:pointer;
+		}
+	</style>
+</head>
+<body>
+	<h1>Hover on the block to see</h1>
+	<a href="https://www.google.com">Go to google</a>
+	<a href="https://www.facebook.com">Go to facebook</a>
+	<a href="https://www.twitter.com">Go to twitter</a>
+	<br>
+	<br>
+	<br>
+	<section>
+	<div>Div 1 </div>
+	<div>Div 2 </div>
+	<div>Div 3 </div>
+	<div>Div 4 </div>
+	<div>Div 5 </div>
+	<div>Div 6 </div>
+	<div>Div 7 </div>
+	<div>Div 6 </div>
+</section>
+</body>
+</html>
