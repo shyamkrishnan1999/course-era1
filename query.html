@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<title>Query</title>
+</head>
+<body>
+	<style>
+		/* Base style */
+		h1{
+			margin-bottom:15px;
+
+		}
+		p{
+			border:1px solid black;
+			margin-bottom:15px;
+		}
+		#p1{
+
+			background-color:red;
+			height:300px;
+			width:300px;
+		}
+		#p2{
+
+			background-color:blue;
+			height:50px;
+			width:50px;
+		}
+
+		/* For larger devices */
+
+		@media (min-width:1200px)
+		{
+			#p1{
+
+				width:80%;
+			}
+			#p2{
+
+				width:100px;
+				height:120px;
+
+			}
+		}
+
+		/* For Medium devices */
+
+		@media (min-width:992px) and (max-width:1199px)
+		{
+			#p1{
+
+				width:50%;
+			}
+			#p2{
+
+				width:80px;
+				height:80px;
+
+			}
+		}
+
+	</style>
+	<h1>Media queries</h1>
+	<p id="p1"></p>
+	<p id="p2"></p>
+</body>
+</html>
